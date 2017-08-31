@@ -102,7 +102,7 @@ export class Zoom {
     // We have to take its current value and compute a new value based
     // on the passed in value.
 
-    // Also, I can use atSCTransform.a because I don't this algorithm doesnt allow rotations
+    // Also, I can use atSCTransform.a because I don't allow rotations within in the game,
     // so the diagonal components correctly represent the matrix's current scale.
     // And because I only perform uniform scaling I can safely use just the "a" element.
     const scaleFactor: number = newScale / this._atSCTransform.a;
