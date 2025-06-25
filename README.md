@@ -1,5 +1,5 @@
 # pixi-pan-zoom
-This is an example of how to add pan and zoom to your [Pixi](pixijs.com) project.
+This is an example of how to add pan and zoom to your [Pixi](https://pixijs.com) project.
 
 **WARNING** the demo was thrown together in AngularCLI. Don't worry though the entire code is in three files: *input.ts, zoom.ts and app.component.ts*. All the rest of the files are bulk created by the angular-cli tool, but most importantly pay attention to *zoom.ts* as that is where the gist of the algorithm is, the rest is just support code for mouse, keyboard and stuff.
 
